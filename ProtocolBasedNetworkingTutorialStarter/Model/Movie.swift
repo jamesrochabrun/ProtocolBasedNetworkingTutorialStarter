@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+///Movie conforms to Decodable
+///All properties are optionals to avoid crashes if there is no key in the JSON file matching them.
+
+struct Movie: Decodable {
+    
+    let title: String?
+    let posterPath: String?
+    let overview: String?
+    let releaseDate: String?
+    let coverPath: String?
+}

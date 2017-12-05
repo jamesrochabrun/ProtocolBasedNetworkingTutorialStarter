@@ -15,6 +15,8 @@
 		7BC78C731FD66410007DEACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC78C711FD66410007DEACC /* LaunchScreen.storyboard */; };
 		7BC78C7E1FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC78C7D1FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterTests.swift */; };
 		7BC78C891FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC78C881FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterUITests.swift */; };
+		7BC78C981FD6644A007DEACC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC78C971FD6644A007DEACC /* Movie.swift */; };
+		7BC78C9A1FD664B5007DEACC /* MovieFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC78C991FD664B5007DEACC /* MovieFeedResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7BC78C841FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolBasedNetworkingTutorialStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC78C881FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedNetworkingTutorialStarterUITests.swift; sourceTree = "<group>"; };
 		7BC78C8A1FD66410007DEACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC78C971FD6644A007DEACC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7BC78C991FD664B5007DEACC /* MovieFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		7BC78C641FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarter */ = {
 			isa = PBXGroup;
 			children = (
+				7BC78C961FD6641D007DEACC /* Model */,
 				7BC78C651FD66410007DEACC /* AppDelegate.swift */,
 				7BC78C671FD66410007DEACC /* ViewController.swift */,
 				7BC78C691FD66410007DEACC /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				7BC78C8A1FD66410007DEACC /* Info.plist */,
 			);
 			path = ProtocolBasedNetworkingTutorialStarterUITests;
+			sourceTree = "<group>";
+		};
+		7BC78C961FD6641D007DEACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BC78C971FD6644A007DEACC /* Movie.swift */,
+				7BC78C991FD664B5007DEACC /* MovieFeedResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,8 @@
 			files = (
 				7BC78C681FD66410007DEACC /* ViewController.swift in Sources */,
 				7BC78C661FD66410007DEACC /* AppDelegate.swift in Sources */,
+				7BC78C981FD6644A007DEACC /* Movie.swift in Sources */,
+				7BC78C9A1FD664B5007DEACC /* MovieFeedResult.swift in Sources */,
 				7BC78C6E1FD66410007DEACC /* ProtocolBasedNetworkingTutorialStarter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
